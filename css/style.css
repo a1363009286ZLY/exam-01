@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color:#000;
+    box-sizing: border-box;
+    font-size:12px;
+}
+
+
+html,body,.wrap{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.wrap{
+    display: flex;
+    flex-direction:column;
+}
+
+.header{
+    width: 100%;
+    height:45px;
+    background:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.header .ipt{
+    flex:1;
+    justify-content:center;
+}
+
+.header a,.header a i.icon{
+    color:#fff;
+}
+.header .ipt input{
+    border: none;
+    width:90%;
+    height:30px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+.content{
+    flex:1;
+    overflow-y: scroll;
+}
+.navs{
+    width:100%;
+    height:50px;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.navs a{
+    flex:1;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.bodys{
+    width: 100%;
+}
+.bodys dl{
+    box-sizing:border-box;
+    height:100px;
+    display: flex;
+    align-items:center;
+    width: 100%;
+    overflow:hidden;
+    border-bottom:1px solid #ccc;
+
+}
+.bodys dl dt{
+    width:80px;
+    height:80px;
+    margin:0 10px;
+}
+.bodys dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.bodys dl dd{
+    width:60%;
+}
+.last i{
+    padding:0 5px;
+    background:#EDF8FA;
+    color:#8FC0DE;
+}
+.footer{
+    width: 100%;
+    height:auto;
+    display: flex;
+    border-top: 1px solid #eee;
+}
+
+.footer a{
+    width:20%;
+    height:45px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    font-size: 12px;
+}
